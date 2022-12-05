@@ -1,11 +1,9 @@
-#!\usr\bin\env python3
+﻿#!\usr\bin\env python3
 # -*- coding: utf-8 -*-
 
 import sys
 import math
 
-# Постоянная Эйлера.
-EULER = 0.5772156649015328606
 # Точность вычислений.
 EPS = 1e-10
 
@@ -26,4 +24,4 @@ if __name__ == '__main__':
         n += 1
 
     # Вывести значение функции.
-    print(f"Es({x}) = {EULER + math.log(math.fabs(x)) + Sum}")
+    print(f"Es({x}) = {Sum}")
